@@ -1,0 +1,95 @@
+/*Classes utilitárias*/
+.hide-show{
+    display: none;
+}
+.container{
+    background: pink;
+}
+.container header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: #000;
+    min-height: 54px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.5;
+    color: blanchedalmond;
+}
+.container header .header-inner{
+    width: 750px;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container header .header-inner .logo a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    align-items: center;
+}
+.container header .header-inner .logo a i{
+    font-size: 27px;
+    margin-right: 3px;
+    outline: none;
+}
+.container header .header-inner .logo a span{
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+}
+.container header .header-inner .toggle-icon{
+    color: #fff;
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 0px 1px 9px;
+    height: 54px;
+    width: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+div.overlay{
+    background: rgba(0, 0, 0, 0.75);
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.container header .navigation{
+    background-color: rgb(0, 0, 0);
+    border-width: 0px;
+    margin: 0px;
+    padding: 38px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 447px;
+    max-width: 100vw;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.container header li:hover{
+    color: #1ed760;
+}
