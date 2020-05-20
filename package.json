@@ -4,7 +4,8 @@
   "description": "Clone spotify com javascript, html5, css3 ## Tecnologias - Javscript - Html5 - Css3 ## Editor - [Visual Studio Code](https://code.visualstudio.com \"VSCode\")",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --port=5500 --host=localhost --open=./index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AndreSDS/clone-spotify/issues"
   },
-  "homepage": "https://github.com/AndreSDS/clone-spotify#readme"
+  "homepage": "https://github.com/AndreSDS/clone-spotify#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
