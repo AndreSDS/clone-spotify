@@ -5,4 +5,4 @@ Clone spotify com javascript, html5, css3
 - Html5
 - Css3
 ## Editor
-- [Visual Studio Code]("https://code.visualstudio.com/")
+- [Visual Studio Code](https://code.visualstudio.com "VSCode")
