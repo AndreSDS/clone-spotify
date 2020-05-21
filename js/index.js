@@ -1,7 +1,12 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.toggle-icon');
-    
+    const overlay = document.querySelector('div.overlay');
+    const navigation = document.querySelector('.navigation');
+    const toggleIcon = document.querySelector('.fa-bars');
+
     button.addEventListener('click', ()=>{
-        console.log(document.querySelector('.overlay').classList.add('hide-show'))
+        overlay.classList.toggle('hide');
+        toggleIcon.classList.toggle('fa-times');
+        navigation.classList.toggle('hide');
     });
 });
